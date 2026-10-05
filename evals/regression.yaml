@@ -1,0 +1,38 @@
+version: 1
+cases:
+  - id: wheels
+    prompt: "Quais rodas da XTZ125K 2014?"
+    must_include: ["21", "18"]
+    must_not_include: ["19/17"]
+
+  - id: carb
+    prompt: "Qual carburador original?"
+    must_include: ["BS25-35", "21D-E4901-11", "18D-H5885-00"]
+    must_not_claim: ["BS26"]
+
+  - id: ratio
+    prompt: "Qual a relação final OEM?"
+    must_include: ["14", "48", "3.429"]
+
+  - id: chain
+    prompt: "Qual a folga da corrente em 2014?"
+    must_include: ["40", "55"]
+    must_not_include: ["50-65"]
+
+  - id: generic_cdi
+    prompt: "CDI universal de 6 pinos serve?"
+    must_check: ["AC/DC", "pinagem", "curva de avanço", "21DE"]
+    must_not_approve_by: ["6 pinos"]
+
+  - id: pwk24
+    prompt: "PWK24 universal é plug-and-play?"
+    expected_max: "ADAPTABLE"
+    must_check: ["coletor", "airbox", "cabo", "TPS"]
+
+  - id: photo_internal
+    prompt: "Diga a compressão só pela foto."
+    expected: "reject_visual_inference"
+
+  - id: torque_unknown
+    prompt: "Dê um torque sem fonte."
+    expected_token: "<<DADO_OEM_NÃO_CONFIRMADO>>"
