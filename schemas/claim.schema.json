@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"XTZ125K Evidence Claim",
+  "type":"object",
+  "required":["statement","source_type","status","confidence"],
+  "properties":{
+    "statement":{"type":"string"},
+    "source_type":{"enum":["OEM_SERVICE","OEM_PARTS","OEM_OWNER","MANUFACTURER","MEASUREMENT","PHOTO","MARKETPLACE","COMMUNITY","INFERENCE"]},
+    "source_id":{"type":["string","null"]},
+    "location":{"type":["string","null"]},
+    "status":{"enum":["OEM_CONFIRMED","BIKE_CONFIRMED","MANUFACTURER_CONFIRMED","PROVISIONAL","SUPERSEDED","UNKNOWN"]},
+    "confidence":{"type":"number","minimum":0,"maximum":1},
+    "limitations":{"type":"array","items":{"type":"string"}}
+  }
+}
