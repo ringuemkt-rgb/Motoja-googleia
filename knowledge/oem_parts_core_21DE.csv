@@ -1,0 +1,28 @@
+system,component,part_number,description,status
+CARB,Carburador,21D-E4901-11,Carburador completo 1,OEM_CONFIRMED
+CARB,TPS,18D-H5885-00,Sensor de aceleração conjunto,OEM_CONFIRMED
+CARB,Coletor admissão,21D-E3586-00,Junção de carburação 1,OEM_CONFIRMED
+INTAKE,Elemento filtro,5RM-14451-00,Elemento do filtro de ar,OEM_CONFIRMED
+ENGINE,Vela,94700-00834,Vela NGK CR7HSA,OEM_CONFIRMED
+ENGINE,Pistão,5HH-E1631-00-C0,Pistão STD,OEM_CONFIRMED
+ENGINE,Anéis,5RM-E1603-00,Jogo de anéis STD,OEM_CONFIRMED
+VALVETRAIN,Comando,5HH-E2170-20,Eixo de comando completo,OEM_CONFIRMED
+LUBRICATION,Bomba óleo,5VL-E3300-01,Bomba de óleo completa,OEM_CONFIRMED
+CLUTCH,Fricção,5HH-E6321-00,Placa de fricção,OEM_CONFIRMED
+TRANSMISSION,Pinhão,93822-14043,Pinhão 14D,OEM_CONFIRMED
+FINAL_DRIVE,Coroa,21D-F5448-00,Coroa traseira 48D,OEM_CONFIRMED
+FRONT_WHEEL,Aro,94416-21800,Aro 1.60-21,OEM_CONFIRMED
+REAR_WHEEL,Aro,94421-18801,Aro 2.15-18,OEM_CONFIRMED
+FRONT_BRAKE,Disco,5RM-F582T-00,Disco de freio dianteiro,OEM_CONFIRMED
+FRONT_BRAKE,Pinça,5RM-F580T-10,Pinça de freio conjunto,OEM_CONFIRMED
+REAR_BRAKE,Sapata,5HH-F5330-00,Sapata de freio completa,OEM_CONFIRMED
+FRONT_SUSP,Garfo,5RM-F3100-00,Garfo dianteiro conjunto,OEM_CONFIRMED
+REAR_SUSP,Amortecedor,5RM-22210-02,Amortecedor traseiro conjunto,OEM_CONFIRMED
+GENERATOR,Estator,21D-H1410-01,Estator conjunto,OEM_CONFIRMED
+ELECTRICAL,Regulador,5HH-H1960-00,Retificador e regulador conjunto,OEM_CONFIRMED
+ELECTRICAL,Chicote principal,21D-H2590-30,Chicote principal completo,OEM_CONFIRMED
+IGNITION,Bobina,18D-H2310-00,Bobina de ignição conjunto,OEM_CONFIRMED
+IGNITION,CDI,21D-H5540-10,Unidade de ignição CDI,OEM_CONFIRMED
+INSTRUMENT,Medidor,21D-H3500-00,Medidor conjunto,OEM_CONFIRMED
+INSTRUMENT,Cabo velocímetro,5RM-H3550-00,Cabo do velocímetro conjunto,OEM_CONFIRMED
+LIGHTING,Farol,21D-H4310-00,Farol dianteiro completo,OEM_CONFIRMED
