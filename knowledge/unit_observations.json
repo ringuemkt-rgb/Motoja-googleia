@@ -1,0 +1,11 @@
+{
+  "privacy":"No VIN, plate, RENAVAM or owner identifiers stored here.",
+  "observations":[
+    {"id":"OBS-001","system":"ELECTRICAL_FRONT","status":"VISUALLY_CONFIRMED","priority":"P0","finding":"Chicote frontal com organização deficiente, emendas/fita antigas e trechos que exigem revisão.","action":"Recondicionar antes de painel/acessórios."},
+    {"id":"OBS-002","system":"CONTROL_CABLE","status":"VISUALLY_CONFIRMED_FUNCTION_UNCONFIRMED","priority":"P0","finding":"Cabo mecânico próximo ao motor com capa severamente danificada e espiral interna exposta/oxidada.","action":"Rastrear as duas extremidades e substituir; não apenas encapar."},
+    {"id":"OBS-003","system":"FINAL_DRIVE","status":"VISUALLY_CONFIRMED","priority":"P1","finding":"Corrente aparenta seca/suja/oxidada.","action":"Limpar, lubrificar, medir folga/alongamento e inspecionar alinhamento/dentes."},
+    {"id":"OBS-004","system":"INTAKE","status":"VISUALLY_PROBABLE","priority":"P1","finding":"Coletor de admissão aparenta envelhecimento.","action":"Inspecionar ressecamento e entrada falsa de ar."},
+    {"id":"OBS-005","system":"AIRBOX","status":"VISUALLY_CONFIRMED","priority":"PRESERVE","finding":"Caixa de ar original presente.","action":"Preservar por confiabilidade e estabilidade da carburação."},
+    {"id":"OBS-006","system":"CARB_CURRENT","status":"UNKNOWN","priority":"P1","finding":"Identidade exata do carburador atualmente instalado ainda não foi confirmada por marcação legível.","action":"Fotografar marcações e medir interfaces."}
+  ]
+}
