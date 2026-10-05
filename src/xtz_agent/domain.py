@@ -50,3 +50,24 @@ class AskRequest(BaseModel):
     question: str
     observations: list[str] = []
     product_context: dict[str, Any] | None = None
+
+class MeasurementInput(BaseModel):
+    target: str
+    value: float
+    unit: str
+    method: str
+    uncertainty: str | None = None
+    status: str = "BIKE_CONFIRMED"
+
+class ServiceEventInput(BaseModel):
+    system: str
+    action: str
+    odometer_km: float | None = None
+    parts: list[str] = []
+    notes: str | None = None
+
+class ObservationInput(BaseModel):
+    system: str
+    finding: str
+    status: str
+    source: str | None = None
