@@ -1,0 +1,10 @@
+{
+  "identity":{"make":"Yamaha","model":"XTZ125K","build_year":2013,"model_year":2014,"model_code":"21DE","status":"CANONICAL"},
+  "engine":{"architecture":"4T, SOHC, monocilíndrico, refrigerado a ar","bore_mm":54.0,"stroke_mm":54.0,"compression_ratio":"10.00:1","periodic_oil_change_l":1.0,"spark_plug":"NGK CR7HSA","spark_plug_gap_mm":[0.6,0.7],"idle_rpm":[1300,1400]},
+  "fuel":{"tank_l":10.6,"reserve_l":1.0},
+  "carburetion":{"manufacturer":"Mikuni","type":"BS25-35","quantity":1,"oem_assembly":"21D-E4901-11","main_jet":"#122.5","pilot_jet":"#12.5","tps":"18D-H5885-00"},
+  "transmission":{"primary_ratio":3.4,"secondary_ratio":3.429,"front_sprocket_teeth":14,"rear_sprocket_teeth":48,"chain_class":"428","chain_links":122,"chain_slack_mm":[40,55]},
+  "wheels_tires":{"front":{"rim":"1.60-21","tire":"80/90-21 M/C 48S"},"rear":{"rim":"2.15-18","tire":"110/80-18 M/C 58S"}},
+  "brakes":{"front":"disco simples","rear":"tambor"},
+  "superseded":["rodas 19/17","Mikuni BS26 como identidade definitiva 2014","folga de corrente 50-65 mm para 2014","compatibilidade de CDI por número de pinos"]
+}
