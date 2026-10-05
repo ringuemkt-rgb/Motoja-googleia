@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     llm_api_key: str | None = None
     llm_model: str | None = None
     knowledge_dir: Path = Path("knowledge")
+    twin_db: Path = Path(".data/xtz_twin.sqlite3")
     log_level: str = "INFO"
     allow_remote_vision: bool = False
 
