@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"XTZ125K Fitment Report",
+  "type":"object",
+  "required":["part_name","score","verdict","blockers"],
+  "properties":{
+    "part_name":{"type":"string"},
+    "score":{"type":"integer","minimum":0,"maximum":100},
+    "verdict":{"enum":["DIRECT_FIT","ADAPTABLE","UNCONFIRMED","INCOMPATIBLE"]},
+    "evidence_confidence":{"enum":["HIGH","MODERATE","LOW"]},
+    "blockers":{"type":"array","items":{"type":"string"}},
+    "pre_purchase_checks":{"type":"array","items":{"type":"string"}},
+    "benefits":{"type":"array","items":{"type":"string"}},
+    "risks":{"type":"array","items":{"type":"string"}},
+    "sources":{"type":"array","items":{"type":"string"}}
+  }
+}
