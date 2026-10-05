@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xtz125k-supreme-agent"
+version = "0.1.0"
+description = "Evidence-first technical agent for Yamaha XTZ125K 21DE"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.8",
+  "pydantic-settings>=2.4",
+  "httpx>=0.27",
+  "orjson>=3.10",
+  "python-multipart>=0.0.12",
+  "PyYAML>=6.0"
+]
+
+[project.optional-dependencies]
+rag = ["qdrant-client>=1.11"]
+vision = ["pillow>=10.4", "transformers>=4.48", "accelerate>=1.0"]
+docs = ["docling>=2.0"]
+agent = ["pydantic-ai>=0.1"]
+dev = ["pytest>=8.3", "pytest-asyncio>=0.24", "ruff>=0.7"]
+
+[project.scripts]
+xtz-agent = "xtz_agent.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/xtz_agent"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
