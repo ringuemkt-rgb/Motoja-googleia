@@ -1,5 +1,6 @@
 system,component,part_number,description,status
-CARB,Carburador,21D-E4901-11,Carburador completo 1,OEM_CONFIRMED
+CARB,Carburador,21D-E4901-10,Carburador completo 1 - catálogo 2014,OEM_CONFIRMED
+CARB,Carburador,21D-E4901-11,Carburador completo 1 - reposição/supersessão,OEM_CONFIRMED
 CARB,TPS,18D-H5885-00,Sensor de aceleração conjunto,OEM_CONFIRMED
 CARB,Coletor admissão,21D-E3586-00,Junção de carburação 1,OEM_CONFIRMED
 INTAKE,Elemento filtro,5RM-14451-00,Elemento do filtro de ar,OEM_CONFIRMED
