@@ -11,3 +11,5 @@ def test_canonical_baseline():
     assert baseline["transmission"]["rear_sprocket_teeth"] == 48
     assert baseline["transmission"]["chain_slack_mm"] == [40,55]
     assert baseline["carburetion"]["type"] == "BS25-35"
+    assert baseline["carburetion"]["catalog_2014_assembly"] == "21D-E4901-10"
+    assert baseline["carburetion"]["service_replacement_assembly"] == "21D-E4901-11"
