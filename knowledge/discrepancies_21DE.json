@@ -1,0 +1,63 @@
+{
+  "vehicle": "Yamaha XTZ125K 2014 / 21DE",
+  "policy": "User-supplied specs are provisional until reconciled against exact-generation OEM/primary evidence and actual-unit measurements.",
+  "items": [
+    {
+      "field": "carburetor",
+      "user_supplied": "Mikuni BS26",
+      "canonical": "Mikuni BS25-35 / OEM assembly 21D-E4901-11",
+      "status": "CONFLICT",
+      "note": "Current installed carburetor also visually differs from OEM CV geometry and shows 'PD' casting; exact installed model remains unconfirmed."
+    },
+    {
+      "field": "front_rear_wheels",
+      "user_supplied": "19/17",
+      "canonical": "21/18; 80/90-21 front and 110/80-18 rear",
+      "status": "CONFLICT"
+    },
+    {
+      "field": "starting_system",
+      "user_supplied": "electric and kick for K",
+      "canonical": "K variant = mechanical/kick; E variant = electric in generation references",
+      "status": "CONFLICT"
+    },
+    {
+      "field": "power",
+      "user_supplied": "10.2 cv @ 8000 rpm",
+      "canonical": "10 cv @ 7500 rpm in generation references; exact homologation figure for this unit should remain source-tracked",
+      "status": "CONFLICT"
+    },
+    {
+      "field": "dry_weight",
+      "user_supplied": "118 kg",
+      "canonical": "~103-104 kg dry in generation references",
+      "status": "CONFLICT"
+    },
+    {
+      "field": "fuel_tank",
+      "user_supplied": "11 L / reserve ~2 L",
+      "canonical": "10.6 L / reserve 1.0 L in technical baseline",
+      "status": "CONFLICT"
+    },
+    {
+      "field": "rear_suspension_travel",
+      "user_supplied": "160 mm",
+      "canonical": "180 mm in generation references",
+      "status": "CONFLICT"
+    },
+    {
+      "field": "top_speed",
+      "user_supplied": "105-110 km/h de fábrica",
+      "canonical": null,
+      "status": "NOT_OEM_BASELINE",
+      "note": "Treat as real-world estimate, not guaranteed factory specification."
+    },
+    {
+      "field": "fuel_economy",
+      "user_supplied": "32-38 km/L; 350-400 km/tank",
+      "canonical": null,
+      "status": "USAGE_DEPENDENT",
+      "note": "Do not store as deterministic vehicle specification."
+    }
+  ]
+}
