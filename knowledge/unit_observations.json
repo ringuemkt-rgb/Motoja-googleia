@@ -1,11 +1,125 @@
 {
-  "privacy":"No VIN, plate, RENAVAM or owner identifiers stored here.",
-  "observations":[
-    {"id":"OBS-001","system":"ELECTRICAL_FRONT","status":"VISUALLY_CONFIRMED","priority":"P0","finding":"Chicote frontal com organização deficiente, emendas/fita antigas e trechos que exigem revisão.","action":"Recondicionar antes de painel/acessórios."},
-    {"id":"OBS-002","system":"CONTROL_CABLE","status":"VISUALLY_CONFIRMED_FUNCTION_UNCONFIRMED","priority":"P0","finding":"Cabo mecânico próximo ao motor com capa severamente danificada e espiral interna exposta/oxidada.","action":"Rastrear as duas extremidades e substituir; não apenas encapar."},
-    {"id":"OBS-003","system":"FINAL_DRIVE","status":"VISUALLY_CONFIRMED","priority":"P1","finding":"Corrente aparenta seca/suja/oxidada.","action":"Limpar, lubrificar, medir folga/alongamento e inspecionar alinhamento/dentes."},
-    {"id":"OBS-004","system":"INTAKE","status":"VISUALLY_PROBABLE","priority":"P1","finding":"Coletor de admissão aparenta envelhecimento.","action":"Inspecionar ressecamento e entrada falsa de ar."},
-    {"id":"OBS-005","system":"AIRBOX","status":"VISUALLY_CONFIRMED","priority":"PRESERVE","finding":"Caixa de ar original presente.","action":"Preservar por confiabilidade e estabilidade da carburação."},
-    {"id":"OBS-006","system":"CARB_CURRENT","status":"UNKNOWN","priority":"P1","finding":"Identidade exata do carburador atualmente instalado ainda não foi confirmada por marcação legível.","action":"Fotografar marcações e medir interfaces."}
+  "privacy": "No VIN, plate, RENAVAM or owner identifiers stored here.",
+  "observations": [
+    {
+      "id": "OBS-001",
+      "system": "ELECTRICAL_FRONT",
+      "status": "VISUALLY_CONFIRMED",
+      "priority": "P0",
+      "finding": "Chicote frontal com organização deficiente, emendas/fita antigas e trechos que exigem revisão.",
+      "action": "Recondicionar antes de painel/acessórios."
+    },
+    {
+      "id": "OBS-002",
+      "system": "CONTROL_CABLE",
+      "status": "VISUALLY_CONFIRMED_FUNCTION_UNCONFIRMED",
+      "priority": "P0",
+      "finding": "Cabo mecânico próximo ao motor com capa severamente danificada e espiral interna exposta/oxidada.",
+      "action": "Rastrear as duas extremidades e substituir; não apenas encapar."
+    },
+    {
+      "id": "OBS-003",
+      "system": "FINAL_DRIVE",
+      "status": "VISUALLY_CONFIRMED",
+      "priority": "P1",
+      "finding": "Corrente aparenta seca/suja/oxidada.",
+      "action": "Limpar, lubrificar, medir folga/alongamento e inspecionar alinhamento/dentes."
+    },
+    {
+      "id": "OBS-004",
+      "system": "INTAKE",
+      "status": "VISUALLY_PROBABLE",
+      "priority": "P1",
+      "finding": "Coletor de admissão aparenta envelhecimento.",
+      "action": "Inspecionar ressecamento e entrada falsa de ar."
+    },
+    {
+      "id": "OBS-005",
+      "system": "AIRBOX",
+      "status": "VISUALLY_CONFIRMED",
+      "priority": "PRESERVE",
+      "finding": "Caixa de ar original presente.",
+      "action": "Preservar por confiabilidade e estabilidade da carburação."
+    },
+    {
+      "id": "OBS-006",
+      "system": "CARB_CURRENT",
+      "status": "UNKNOWN",
+      "priority": "P1",
+      "finding": "Identidade exata do carburador atualmente instalado ainda não foi confirmada por marcação legível.",
+      "action": "Fotografar marcações e medir interfaces."
+    },
+    {
+      "id": "OBS-007",
+      "system": "BODY_COSMETIC",
+      "status": "VISUALLY_CONFIRMED",
+      "priority": "P2",
+      "finding": "Conjunto azul/branco visualmente íntegro nas fotos atuais; banco e carenagens principais sem dano estrutural evidente. Há marcas cosméticas leves.",
+      "action": "Apenas conservação/inspeção de fixadores; sem intervenção estrutural indicada pelas fotos."
+    },
+    {
+      "id": "OBS-008",
+      "system": "FRONT_SUSPENSION",
+      "status": "VISUALLY_CONFIRMED_LIMITED",
+      "priority": "P1",
+      "finding": "Tubos internos da suspensão dianteira aparentam superfície limpa e sem vazamento de óleo evidente nas imagens.",
+      "action": "Confirmar presencialmente retentores, folga, alinhamento e curso; foto não exclui vazamento leve ou desgaste interno."
+    },
+    {
+      "id": "OBS-009",
+      "system": "EXHAUST",
+      "status": "VISUALLY_CONFIRMED",
+      "priority": "P1",
+      "finding": "Coletor de escape apresenta oxidação superficial relevante, principalmente próximo ao motor; não há perfuração visível nas fotos.",
+      "action": "Limpar e inspecionar espessura/estado antes de tratamento anticorrosivo; substituir somente se houver perda estrutural."
+    },
+    {
+      "id": "OBS-010",
+      "system": "WHEELS_BRAKES",
+      "status": "VISUALLY_CONFIRMED_LIMITED",
+      "priority": "P1",
+      "finding": "Aros raiados e conjunto de freio dianteiro/traseiro estão presentes e visualmente completos; não há dano grosseiro evidente nas fotos.",
+      "action": "Medir disco, verificar pastilhas/sapatas, raios, rolamentos e empeno; foto não confirma limites de serviço."
+    },
+    {
+      "id": "OBS-011",
+      "system": "TIRES",
+      "status": "VISUALLY_CONFIRMED_LIMITED",
+      "priority": "P1",
+      "finding": "Pneus de desenho on/off-road apresentam sulcos visíveis nas fotos.",
+      "action": "Ler DOT, marca/modelo, medida e inspecionar trincas/pressão; profundidade e idade não podem ser aprovadas apenas pela imagem."
+    },
+    {
+      "id": "OBS-012",
+      "system": "CARB_CURRENT",
+      "status": "VISUALLY_CONFIRMED_NON_OEM_GEOMETRY",
+      "priority": "P0",
+      "finding": "O carburador atualmente instalado tem corpo de guilhotina/slide e geometria visual diferente do Mikuni BS25-35 de vácuo usado como baseline 21DE. Há marcação 'PD' visível na cuba; fabricante/modelo exato permanecem não confirmados.",
+      "action": "Não tratar o carburador instalado como OEM. Fotografar todas as marcações, medir diâmetro do venturi e interfaces, cabo, giclês e verificar se há TPS/solenóide ausentes ou adaptados."
+    },
+    {
+      "id": "OBS-013",
+      "system": "CARB_CURRENT",
+      "status": "VISUALLY_NOT_CONFIRMED",
+      "priority": "P0",
+      "finding": "Não foi possível confirmar por estas fotos a presença de TPS funcional no carburador instalado.",
+      "action": "Inspecionar o lado oposto do carburador e rastrear chicote/conector TPS antes de qualquer acerto ou troca de CDI/carburador."
+    },
+    {
+      "id": "OBS-014",
+      "system": "INSTRUMENT_CLUSTER",
+      "status": "VISUALLY_CONFIRMED",
+      "priority": "P2",
+      "finding": "Painel analógico original/estilo original está instalado, com velocímetro e indicadores convencionais visíveis.",
+      "action": "Preservar até revisão completa do chicote frontal; painel digital deve ser etapa posterior."
+    },
+    {
+      "id": "OBS-015",
+      "system": "FRONT_WIRING",
+      "status": "VISUALLY_CONFIRMED_LIMITED",
+      "priority": "P0",
+      "finding": "Há trechos de fios multicoloridos visíveis atrás da carenagem do farol; a proteção/organização integral do subchicote frontal não pode ser confirmada pelas fotos atuais.",
+      "action": "Abrir frente com bateria isolada e auditar emendas, conectores, bitolas, aterramentos, isolamento e alívio de tração antes de adicionar acessórios."
+    }
   ]
 }
